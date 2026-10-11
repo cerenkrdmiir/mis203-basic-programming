@@ -66,3 +66,17 @@
   3. Input: Age 65 (Weekday) -> Result: 100.00 TRY (Senior)
 - **Why does the order of the rules matter?:**
   If the student rule came before the child rule, a 10-year-old student would receive only a 30% student discount instead of the 40% child discount they are eligible for. The order ensures customers get the highest prioritized discount intended for their group.
+
+
+# Dorm Laundry System
+
+A simple Python script simulating a dorm laundry machine reservation system.
+
+## Features
+- Displays current machine availability.
+- Simulates machine reservation for a student.
+- Uses `datetime` for timestamps and `time` for execution pauses.
+
+## Requirements
+- Python 3.x
+- Libraries: `datetime`, `time` (built-in)
